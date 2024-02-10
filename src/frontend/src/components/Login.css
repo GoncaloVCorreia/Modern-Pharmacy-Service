@@ -1,0 +1,70 @@
+body {
+  background-color: #15202b; /* Dark background color */
+  color: #fff; /* White text color */
+}
+.login-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #192734; /* Darker background color for the container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle glow effect */
+}
+
+.login-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff; /* White text color */
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  width: 80px;
+  margin-right: 10px;
+  color: #fff; /* White text color */
+}
+
+input[type='email'],
+input[type='password'] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #30475e; /* Darker input background color */
+  color: #fff; /* White text color */
+}
+
+button[type='submit'] {
+  padding: 8px 12px;
+  margin-top: 20px;
+  background-color: #1da1f2; /* Dark blue button background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0c86d3; /* Darker shade of blue on hover */
+}
+
+.error-message {
+  color: #ff4d4f; /* Red error message color */
+  margin-top: 10px;
+  text-align: center;
+}

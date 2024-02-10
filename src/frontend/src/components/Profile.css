@@ -1,0 +1,52 @@
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    padding: 8px 12px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #0c86d3;
+  }
+  
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .prescription-link {
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .prescription-link:hover {
+    background-color: #0c86d3;
+  }
+  

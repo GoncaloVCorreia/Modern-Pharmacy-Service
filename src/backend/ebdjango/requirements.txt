@@ -1,0 +1,13 @@
+asgiref==3.7.1
+distlib==0.3.6
+Django==4.2.1
+django-cors-headers==4.0.0
+djangorestframework==3.14.0
+filelock==3.12.0
+platformdirs==3.5.1
+psycopg2-binary==2.9.6
+sqlparse==0.4.4
+virtualenv==20.23.0
+boto3==1.26.142
+Pillow==9.5.0
+drf-yasg==1.21.5
